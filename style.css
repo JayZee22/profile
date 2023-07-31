@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  background-color: #e6e6e6c6;
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 50px;
+  text-align: center
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  color: #0f2b1b;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+#profile-pic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card{
+  background-color: white;
+  margin: 25px auto;
+  padding: 40px;
+  width: 500px;
+  border-radius: 20px;
+  border: 1px solid #EAEAEA;
+}
+
+.child {
+  display: inline;
+  background-color: #EEEEEE;
+  padding: 0.5rem 0.75rem;
+  margin-right: 10px;
+}
+
+.parent {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #98b396;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+a:hover{
+  color: #39412c;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
